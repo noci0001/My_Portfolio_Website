@@ -5,6 +5,7 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
+
 const Header = () =>  (
   <Container>
     <Div1>
@@ -23,7 +24,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Who I am</NavLink>
         </Link>
       </li>
       <li>
@@ -43,7 +44,6 @@ const Header = () =>  (
           <AiFillFacebook size="3rem"/>
       </SocialIcons>
     </Div3>
-
   </Container>
 );
 

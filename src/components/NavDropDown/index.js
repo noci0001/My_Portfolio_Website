@@ -1,13 +1,19 @@
 import React from 'react'
-import { AiFillPhone, AiOutlineMail } from 'react-icons/ai'
-import { FaLocationArrow } from "react-icons/fa"
+//import { AiFillPhone, AiOutlineMail } from 'react-icons/ai'
+//import { FaLocationArrow } from "react-icons/fa"
+import { IoLanguageOutline } from "react-icons/io"
 
-import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } from './NavDropDown'
+//DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer
+
+import { DropDownContainer, DropDownIcon } from './NavDropDown'
+
 
 const NavDropDown = (props) => (
-  <div>
-    NavDropDown
-  </div>
+  <DropDownContainer>
+  <DropDownIcon>
+      <IoLanguageOutline Size="3rem"/>
+  </DropDownIcon>
+</DropDownContainer>
 );
 
-export default NavDropDown
+export default NavDropDown;

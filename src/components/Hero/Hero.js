@@ -9,7 +9,8 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br/>
-        My Personal Portfolio
+        Samuel Nocita's <br/>
+        Personal Portfolio
       </SectionTitle>
       <SectionText>
       The highest level of mastery is simplicity. <br />
