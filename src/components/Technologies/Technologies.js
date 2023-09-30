@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiReact, DiZend } from 'react-icons/di';
-import { SiNextDotJs, SiNextdotjs } from 'react-icons/si'
+import { SiNextDotJs } from 'react-icons/si'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
