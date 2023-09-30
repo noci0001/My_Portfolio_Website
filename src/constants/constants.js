@@ -20,8 +20,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'While Vounteering abroad for Europe, I teach in schools Media Literacy and I get interested in Software Engineering ', },
+  { year: 2019, text: 'While Vounteering abroad for Europe, I teach in schools Media Literacy and I develop a passion for programming', },
   { year: 2020, text: 'Started my journey studying in The Netherlands', },
-  { year: 2021, text: 'Mastery of Software Engineering while full-time University Student', },
-  { year: 2022, text: 'Full-Time focus on Full-Stack Development, I become a freelancer', },
+  { year: 2021, text: 'Co-ideated, co-funded and coded my own online marketplace Student Company HOBBY JOBBY and operated as Developer', },
+  { year: 2022, text: 'Accepted into competitive highly sought-after worldwide Software Engineering School 42 Wolfsburg', },
+  { year: 2023, text: 'Full deep dive into low level programming learning C, C++ and developing complex low level programs'}
 ];
