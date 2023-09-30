@@ -10,10 +10,15 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Who I am</SectionTitle>
     <SectionText>
-    I describe myself as a curious person, I study Software Engineering because the world of Tech offers limitless opportunities for those ravenous for enlightenment. 
-    I strive for excellence and I try to put creativity in every challenge I face, I think that "We need to first be limited in order to become limitless,” (Phil Hansen, TED Conference 2013).
+	I am Sam from Berlin,<br/> I code for a living and I live to code.<br/> I really enjoy low level languages like C and I mostly code in CPP. You can checkout my LinkedIn profile at my LinkedIn
     <br/>
-    My classmates, instructors and co-workers have described me as an enthusiastic cheerful person and a motivated collaborator who is passionate and hard-working.
+	🔭 I am currently working on creating a web server <br/>
+	🌱 I am learning the wonders of C++ and Object Oriented Programming<br/>
+	👯 I am looking to collaborate on frontend projects involving React<br/>
+	🤔 I am looking for help with finding an internship in tech that challenges me and makes me create an impact<br/>
+	💬 Ask me about how shell works! It's an amazingly complex language that we use daily but we do not appreciate enough!<br/>
+	📫 How to reach me: my <a href="https://www.linkedin.com/in/samuelnocita/">LinkedIn</a> or <a href="mailto:samuelnocita@gmail.com">samuelnocita@gmail.com</a><br/>
+	⚡ Fun fact: Computer languages are not the only languages I find fascinating, human languages were my first passion and I speak a few like Italian, Spanish, French and soon I hope to master German<br/>
     </SectionText>
     <List>
       <ListItem>
