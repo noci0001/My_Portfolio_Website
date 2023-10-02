@@ -1,20 +1,29 @@
 export const projects = [
   {
     title: 'Minishell',
-    description: "The Minishell 42 project was a significant and rewarding challenge in the 42 curriculum, pushing me to explore various aspects of software development. Despite my initial intimidation, it involved creating a command-line interpreter resembling Bash, focusing on core functionalities: Operating exclusively in interactive mode Executing commands with absolute or relative paths Supporting simple commands without paths Maintaining a command history Implementing pipes, redirections, and here-doc functionality Handling double and single quotes, environment variables, and signals Including built-in commands like echo, exit, env, export, unset, cd, and pwd. The project was divided into front-end and back-end sections. The front-end managed user input and commands, while signals were addressed later to reduce complexity. The parsing journey involved two phases: lexical analysis (tokenization) and syntax analysis (parsing). Lexical analysis transformed user input into tokens, emphasizing token types over values. Syntax analysis scanned tokens based on a predefined grammar, potentially generating an Abstract Syntax Tree. Lexing was relatively straightforward, while parsing posed a considerable challenge.",
+    description: "The shell operates exclusively in interactive mode, meaning it doesn't handle scripts (i.e., the executable takes no arguments). It can execute simple commands with absolute or relative...",
     image: '/images/1.png',
-    tags: ['C', 'C++', 'Teamworking', 'Backend'],
+    tags: ['BACKEND:','C', 'C++', 'Teamworking', 'Backend'],
     source: 'https://github.com/noci0001/42_Minishell',
     visit: 'https://github.com/noci0001/42_Minishell',
     id: 0,
   },
   {
-    title: 'Personal Website',
-    description:"This had been a very fun project and my most important takeaway had been that no matter how hard something looks, how complex you perceive a project to be, if you make one step at a time you can face everything. This project being one of my firsts is less polished, but it makes me reflect on how cool learning and improving your skills is.",
+    title: 'Philosophers',
+    description:"The dining philosophers problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them. It was originally ...",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript', 'Sass', 'Github', 'Netlify'],
-    source: 'https://github.com/noci0001/Old_React_Personal_Site_On_Git',
-    visit: 'https://sampersonalwebsite.netlify.app/',
+    tags: ['BACKEND:', 'Multithreading', 'C', 'C++', 'Data Racing', 'Mutex'],
+    source: 'https://github.com/noci0001/42_philosophers',
+    visit: 'https://github.com/noci0001/42_philosophers',
+    id: 1,
+  },
+  {
+    title: 'CUB3D',
+    description:"Cub3D is a team project at 42 that asks us to create a 3D game engine with miniLibX. This project is inspired by the world-famous 90's game Wolfenstein 3D ...",
+    image: '/images/3.png',
+    tags: ['BACKEND:', 'GameDev', 'C', 'C++', 'Algorithms', 'Math functions'],
+    source: 'https://github.com/thedatab0y/cub3D',
+    visit: 'https://github.com/thedatab0y/cub3D',
     id: 1,
   }
 ];
